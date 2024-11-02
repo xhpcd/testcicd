@@ -11,4 +11,9 @@ public class c {
         return "nihao";
     }
 
+    @RequestMapping("/b")
+    public String test2(){
+        return "此时很生气";
+    }
+
 }
